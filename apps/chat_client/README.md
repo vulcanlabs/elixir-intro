@@ -1,20 +1,6 @@
 # ChatClient
 
-**TODO: Add description**
+## Running
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add chat_client to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:chat_client, "~> 0.0.1"}]
-        end
-
-  2. Ensure chat_client is started before your application:
-
-        def application do
-          [applications: [:chat_client]]
-        end
-
+        server=server@<hostname> nick=joe elixir --sname client1 -S mix run
+        server=server@<hostname> nick=bob elixir --sname client2 -S mix run
